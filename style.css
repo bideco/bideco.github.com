@@ -6,7 +6,7 @@ h1, h2{font-weight:500;margin:0px 0px 5px 0px;}
 h1{font-size:24px;}
 h2{font-size:16px;}
 p{margin:0px;}
-.profile-card{background:#FFB300;width:56px;height:56px;position:absolute;left:50%;top:50%;z-index:2;overflow:hidden;opacity:0;margin-top:70px;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);-webkit-border-radius:50%;border-radius:50%;-webkit-box-shadow:0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);box-shadow:0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);-webkit-animation:init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;animation:init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;}
+.profile-card{background:#1d1433;width:56px;height:56px;position:absolute;left:50%;top:50%;z-index:2;overflow:hidden;opacity:0;margin-top:70px;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);-webkit-border-radius:50%;border-radius:50%;-webkit-box-shadow:0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);box-shadow:0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);-webkit-animation:init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;animation:init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;}
 .profile-card header{width:179px;height:280px;padding:40px 20px 30px 20px;display:inline-block;float:left;border-right:2px dashed #EEEEEE;background:#FFFFFF;color:#000000;margin-top:50px;opacity:0;text-align:center;-webkit-animation:moveIn 1s 3.1s ease forwards;animation:moveIn 1s 3.1s ease forwards;}
 .profile-card header h1{color:#FF5722;}
 .profile-card header a{display:inline-block;text-align:center;position:relative;margin:25px 30px;}
@@ -46,19 +46,19 @@ p{margin:0px;}
 50%{top:40%;}
 100%{top:100%;}
 }
-@-webkit-keyframes moveUp{0%{background:#FFB300;top:100%;}
+@-webkit-keyframes moveUp{0%{background:#1d1433;top:100%;}
 50%{top:40%;}
-100%{top:50%;background:#E0E0E0;}
+100%{top:50%;background:#e66c79;}
 }
-@keyframes moveUp{0%{background:#FFB300;top:100%;}
+@keyframes moveUp{0%{background:#1d1433;top:100%;}
 50%{top:40%;}
-100%{top:50%;background:#E0E0E0;}
+100%{top:50%;background:#e66c79;}
 }
 @-webkit-keyframes materia{0%{background:#E0E0E0;}
 50%{-webkit-border-radius:4px;}
 100%{width:440px;height:280px;background:#FFFFFF;-webkit-border-radius:4px;}
 }
-@keyframes materia{0%{background:#E0E0E0;}
+@keyframes materia{0%{background:#e66c79;}
 50%{border-radius:4px;}
 100%{width:440px;height:280px;background:#FFFFFF;border-radius:4px;}
 }
@@ -98,7 +98,7 @@ body:before{width:0px;}
 50%{-webkit-border-radius:4px;}
 100%{width:280px;height:440px;background:#FFFFFF;-webkit-border-radius:4px;}
 }
-@keyframes materia{0%{background:#E0E0E0;}
+@keyframes materia{0%{background:#e66c79;}
 50%{border-radius:4px;}
 100%{width:280px;height:440px;background:#FFFFFF;border-radius:4px;}
 }
